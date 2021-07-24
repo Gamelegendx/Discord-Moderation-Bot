@@ -1,5 +1,5 @@
-exports.TOKEN = "your bot token";
+exports.TOKEN = "ODY3OTk5MjQ5MTU2MTc3OTQw.YPpRSw.72SkdlZEZ9UfRc2d9uVN4dxBPI8";
 
-exports.PREFIX = 'YOUR PREFIX';
+exports.PREFIX = '!';
 
-exports.OWNER_ID = "YOUR ACC ID"
+exports.OWNER_ID = "723133544234352705"
