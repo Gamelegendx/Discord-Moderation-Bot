@@ -34,7 +34,6 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-    "start": "npm start"
   },
   "author": "Manav Garg",
   "license": "ISC"
