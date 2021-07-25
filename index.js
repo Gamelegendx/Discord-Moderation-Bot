@@ -7,7 +7,7 @@ const db = require('quick.db');
 app.listen(52228, function () {
   console.log('Example app listening on port 3000!');
 });
-const PORT = process.env.PORT || ;
+const PORT = process.env.PORT || 52228
 app.listen(PORT, () => {
     console.log(`Our app is running on port ${ PORT }`);
 });
