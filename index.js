@@ -4,6 +4,12 @@ const { PREFIX, TOKEN } = require('./config');
 const bot = new Client({ disableMentions: 'everyone' });
 const fs = require("fs");
 const db = require('quick.db');
+
+const host = 'localhost';
+const port = 3000;
+
+const host = '0.0.0.0';
+const port = process.env.PORT || 3000;
 //============================================================================================================================================================================================================
 
 
