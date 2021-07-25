@@ -4,6 +4,10 @@ const { PREFIX, TOKEN } = require('./config');
 const bot = new Client({ disableMentions: 'everyone' });
 const fs = require("fs");
 const db = require('quick.db');
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`App is running on port ${ PORT }`);
+});
 //============================================================================================================================================================================================================
 
 
