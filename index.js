@@ -1,5 +1,5 @@
 //====================================================================================CONSTANTS REQUIRED ON READY=============================================================================================
-let PORT = process.env.PORT || 0.0.0.0
+let PORT = process.env.PORT || 5000
 const { Client, Collection } = require('discord.js');
 const { PREFIX, TOKEN } = require('./config');
 const bot = new Client({ disableMentions: 'everyone' });
