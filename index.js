@@ -1,10 +1,16 @@
 //====================================================================================CONSTANTS REQUIRED ON READY=============================================================================================
-let PORT = process.env.PORT || 4563
 const { Client, Collection } = require('discord.js');
 const { PREFIX, TOKEN } = require('./config');
 const bot = new Client({ disableMentions: 'everyone' });
 const fs = require("fs");
 const db = require('quick.db');
+app.listen(52228, function () {
+  console.log('Example app listening on port 3000!');
+});
+const PORT = process.env.PORT || ;
+app.listen(PORT, () => {
+    console.log(`Our app is running on port ${ PORT }`);
+});
 //============================================================================================================================================================================================================
 
 
